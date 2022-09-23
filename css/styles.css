@@ -10,7 +10,6 @@ body {
   color: var(--primary-text-color);
 
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -88,6 +87,7 @@ button {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .hero .button {
   color: var(--title-text-color-light);
@@ -97,6 +97,7 @@ button {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 .button.active {
   color: var(--title-text-color-light);
@@ -135,7 +136,6 @@ button {
   letter-spacing: 0.03em;
 }
 .team-member {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -150,7 +150,6 @@ button {
   letter-spacing: 0.06em;
 }
 .portfolio-item {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -168,4 +167,8 @@ button {
   color: rgba(255, 255, 255, 0.6);
 
   text-decoration: none;
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--title-text-color-light);
 }
